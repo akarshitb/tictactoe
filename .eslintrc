@@ -1,9 +1,17 @@
 {
-  "extends": ["airbnb", "prettier"],
+  "extends": ["airbnb", "prettier", "eslint:recommended"],
   "env": {
-    "browser": true
+    "browser": true,
+    "es2021": true
   },
   "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
   "rules": {
     "no-plusplus": [0],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
@@ -12,6 +20,7 @@
     "import/prefer-default-export": [0],
     "react/no-array-index-key": [0],
     "arrow-body-style": [0],
-    "prefer-arrow-callback": [0]
+    "prefer-arrow-callback": [0],
+    "allowImportsExportsAnywhere": true
   }
 }
