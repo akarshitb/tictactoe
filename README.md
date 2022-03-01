@@ -1,3 +1,12 @@
+#The Tic Tac Toe game in React.
+
+Stack: React , Styles with Sass
+
+To run the project
+-Install dependencies by running npm install
+-Run npm run startTo start the project 
+
+
 # Nano React App Default Javascript Template
 
 The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
