@@ -3,7 +3,9 @@
 Stack: React , Styles with Sass
 
 To run the project
+
 -Install dependencies by running npm install
+
 -Run npm run startTo start the project 
 
 
